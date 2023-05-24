@@ -1,9 +1,26 @@
 .container {
   max-width: 1400px;
 }
+.header{
+  background-color: #fff9e4;
+}
+.topbar-header {
+  border-bottom: 1px solid #e8e8e8!important;
+  margin: 0;
+  padding: 10px 0;
+}
+.second-topbar{
+  margin-top: 1%;
+}
+.topbar-msg {
+  padding-left: 20px;
+  text-align: left;
+  margin-bottom: 0px!important;
+    }
 
 .topbar-navbar {
   display: inline;
+  padding: 5px 10px;
 }
 
 .register {
@@ -17,20 +34,41 @@ li::before {
   padding-right: 20px;
   color: #6b6b6b;
 }
+.logo-image{
+  padding: 0;
+  margin-left: 80px;
+  margin-top: 1%;
+  width: auto;
+  height: 30%;
+}
+.search-label{
+  display: none;
+}
+.search-products{
+  width: 65%;
+  border: 2px 2px 0;
+  padding: 1%;
+  width: 70%;
+  margin-top: 5%;
+  border-color: #fed700;
+}
+.search-btn{
+  margin-top: 60%;
+    width: 150%;
+    height: 60%;
+    background-color: #fed700;
+    border-color: #fed700;
+}
+.second-nav{
+  padding-top: 7%;
+}
 
 @media (max-width: 1200px) {
-  .header {
-    background-color: rgb(232, 232, 232);
-    border-bottom: 1px solid #e8e8e8;
-    margin: 0 60px;
-  }
-  .topbar-container {
+
+  .topbar-header {
     display: none;
-    padding:0 10px;
+
+
   }
-  .topbar-msg {
-    padding-left: 20px;
-    text-align: left;
-    margin: 0;
-      }
+
 }
